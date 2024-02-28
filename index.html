@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css"
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1 class = "header_text">I REAALY LUV U </h1>
+                <h1 class ="header_text">will YOU FORGIVE mwe</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://www.google.com/search?q=animated+angry+face+gif&tbm=isch&hl=en-US&sa=X&ved=2ahUKEwjln5yGhM-EAxWRBfsDHXO-DRUQrNwCKAB6BQgBEOUC&biw=1519&bih=695#imgrc=PuwYr4gpDWWiDM" alt="cute animated illustration">
+            </div>
+            <div class="buttons">
+                <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "yes.html";
+                    }
+                    function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetHeightWidth)- 85;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButtonHeight').offsetHeight) - 48;
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+                    }
+                </script>
+            </div>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
